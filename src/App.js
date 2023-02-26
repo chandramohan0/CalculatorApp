@@ -57,7 +57,7 @@ function App() {
             <div onClick={calculate} className='padButton equal blue'>=</div>
             <div onClick={() => display("0")} className='padButton zero dark-gray'>0</div>
             <div onClick={() => display(".")} className='padButton dot dark-gray'>.</div>
-            <p>This Calculator is built by Chandra Mohan.</p>
+            <p>Calculator @Chandra Mohan.</p>
           </div>
          </div>
   );
