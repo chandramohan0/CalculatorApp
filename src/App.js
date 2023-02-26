@@ -18,7 +18,7 @@ function App() {
   };
   
   const calculate = () => {
-    setAnswer(eval(expression))
+    setAnswer(expression)
     setExpression(prev => prev + "=")
   };
 
