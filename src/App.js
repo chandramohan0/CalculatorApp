@@ -8,7 +8,7 @@ function App() {
 
   const display = (symbol) => {
     setExpression(prev => prev + symbol);
-    if(expression[expression.length-1] == "=") {
+    if(expression[expression.length-1] === "=") {
       if(/[0-9.]/.test(symbol)) {
         setExpression(symbol);
     } else {
